@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Chrome Extension</title>
+    <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <div class="app">
+    <p class="title">ReportR</p>
+    <p class="subtitle">Report any hate speech, offensive language</p>
+    <div id="counter" class="counter"></div>
+    <div class="button-container">
+      <form id="useCasePostForm">
+        <div>Paste link of fb post / twitter links</div>
+        <input type="text" id="link" /> 
+        <hr class="divider" />
+        <div>Please provide reasons for you report</div>
+        <input type="text" id="reason" />
+        <hr class="divider" />
+        <input type="submit"  id="incrementBtn" class="button">
+      </form>
+    </div>
+
+
+  <script src="popup.js"></script>
+
+  <!--
+    This HTML file opens when you click on icon from the toolbar.
+
+    To begin the development, run `npm run watch`.
+    To create a production bundle, use `npm run build`.
+  -->
+</body>
+</html>

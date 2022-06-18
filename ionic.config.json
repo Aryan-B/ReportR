@@ -1,0 +1,7 @@
+{
+  "name": "duby",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
